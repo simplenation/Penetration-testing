@@ -28,10 +28,13 @@ This website is intentionally vulnerable and created for security testing and ed
 
 ---
 ## Screenshot Evidence
-   /screenshots
-sql_injection_test 
-xss_alert
-csrf_alert
+   /simplenation/Penetration
+sql_injection_test ![SQL Injection](https://raw.githubusercontent.com/simplenation/Penetration-testing/14bf228c1c3c005b32b7474be74a8addaf3ea06e/Screenshot%202026-03-06%20170224%20burp3.png)
+xss_alert ![XSS Alert](https://raw.githubusercontent.com/simplenation/Penetration-testing/14bf228c1c3c005b32b7474be74a8addaf3ea06e/Screenshot%202026-03-06%20170114%20burp1.png)
+csrf_alert ![CSRF Alert](https://raw.githubusercontent.com/simplenation/Penetration-testing/14bf228c1c3c005b32b7474be74a8addaf3ea06e/Screenshot%202026-03-06%20170250%20burp4.png)
+Audit item ![Audit Item](https://raw.githubusercontent.com/simplenation/Penetration-testing/14bf228c1c3c005b32b7474be74a8addaf3ea06e/Screenshot%202026-03-06%20170152%20burp2.png)
+![Burp scanner Report summary](https://raw.githubusercontent.com/simplenation/Penetration-testing/14bf228c1c3c005b32b7474be74a8addaf3ea06e/Screenshot%202026-03-06%20170906%20burp5.png)
+![Remediation Detail](https://raw.githubusercontent.com/simplenation/Penetration-testing/14bf228c1c3c005b32b7474be74a8addaf3ea06e/Screenshot%202026-03-06%20171556%20burp6.png)
 
 ## Testing Methodology
 
@@ -99,15 +102,6 @@ The application does not implement anti-CSRF tokens.
 Impact:
 Attackers could trick authenticated users into performing unwanted actions.
 
-📸 Proof of Concept
-
-Screenshots of the vulnerabilities can be found in the /screenshots directory.
-
-Example:
-screenshots/
-   sql_injection.png
-   xss_attack.png
-   burp_proxy_capture.png
    
 ### Mitigation Recommendations
 
